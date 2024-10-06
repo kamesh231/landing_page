@@ -127,6 +127,44 @@ header .cta-button:hover {
   border-radius: 50%;
 }
 
+/* Integrations we support Section */
+#integrations-we-support {
+  padding: 60px 0;
+}
+
+#integrations-we-support h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#integrations-we-support ol {
+  counter-reset: li;
+  list-style: none;
+  padding: 0;
+}
+
+#integrations-we-support li {
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+#integrations-we-support li:before {
+  counter-increment: li;
+  content: counter(li);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #3498db;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
 /* Lead Capture Form */
 #signup {
   padding: 60px 0;
